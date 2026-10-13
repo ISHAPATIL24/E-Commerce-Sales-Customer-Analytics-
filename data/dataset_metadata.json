@@ -1,0 +1,61 @@
+{
+  "dataset_name": "Sample Superstore Retail Dataset",
+  "domain": "E-Commerce Sales & Customer Analytics",
+  "group": "Group 4",
+  "provenance": {
+    "primary_origin": "Tableau Community & US Retail Benchmark Data",
+    "verified_source_url": "https://raw.githubusercontent.com/sumit0072/Superstore-Data-Analysis/main/Sample%20-%20Superstore.csv",
+    "kaggle_reference": "https://www.kaggle.com/datasets/vivek468/superstore-dataset-final",
+    "license": "Public Domain / CC0 1.0 Universal (Open Database License - ODbL compatible for educational and benchmarking use)",
+    "usage_terms": "Freely accessible for educational, exploratory data analysis, and academic visualization research."
+  },
+  "technical_summary": {
+    "total_records": 9994,
+    "total_attributes": 21,
+    "duplicate_records": 0,
+    "missing_cells": 0,
+    "date_range": {
+      "start": "2014-01-03",
+      "end": "2017-12-30",
+      "span_years": 4
+    },
+    "geographical_scope": {
+      "country": "United States",
+      "regions": 4,
+      "states": 49,
+      "cities": 531
+    },
+    "totals": {
+      "total_sales_usd": 2297200.86,
+      "total_profit_usd": 286397.02,
+      "overall_profit_margin_pct": 12.47,
+      "total_units_sold": 37873,
+      "unique_orders": 5009,
+      "unique_customers": 793,
+      "average_order_value_usd": 458.61
+    }
+  },
+  "data_dictionary": [
+    {"column": "Row ID", "type": "Integer", "description": "Unique record index for each transaction row"},
+    {"column": "Order ID", "type": "String (Categorical)", "description": "Unique transaction tracking code (e.g., CA-2016-152156)"},
+    {"column": "Order Date", "type": "Date (Temporal)", "description": "Date customer placed order (format: MM/DD/YYYY)"},
+    {"column": "Ship Date", "type": "Date (Temporal)", "description": "Date order was dispatched from fulfillment center"},
+    {"column": "Ship Mode", "type": "Categorical", "description": "Shipping class: Standard Class, Second Class, First Class, Same Day"},
+    {"column": "Customer ID", "type": "String (Categorical)", "description": "Unique alphanumeric customer identifier"},
+    {"column": "Customer Name", "type": "String", "description": "Full name of the purchasing customer"},
+    {"column": "Segment", "type": "Categorical", "description": "Market sector: Consumer, Corporate, Home Office"},
+    {"column": "Country", "type": "Categorical", "description": "Country of fulfillment (United States)"},
+    {"column": "City", "type": "Categorical", "description": "City of shipping destination (531 unique cities)"},
+    {"column": "State", "type": "Categorical", "description": "US State (49 distinct states)"},
+    {"column": "Postal Code", "type": "Numeric / String", "description": "US ZIP code for localized delivery"},
+    {"column": "Region", "type": "Categorical", "description": "Macro geographic sales division: West, East, Central, South"},
+    {"column": "Product ID", "type": "String (Categorical)", "description": "Unique SKU identifier"},
+    {"column": "Category", "type": "Categorical", "description": "Top-level taxonomy: Furniture, Office Supplies, Technology"},
+    {"column": "Sub-Category", "type": "Categorical", "description": "Granular classification: 17 distinct sub-categories (Chairs, Tables, Phones, etc.)"},
+    {"column": "Product Name", "type": "String", "description": "Full product title/description"},
+    {"column": "Sales", "type": "Float (Continuous)", "description": "Gross transaction revenue in USD ($0.44 to $22,638.48)"},
+    {"column": "Quantity", "type": "Integer (Discrete)", "description": "Number of units ordered per line item (1 to 14)"},
+    {"column": "Discount", "type": "Float (Continuous)", "description": "Promotional discount applied as a percentage (0.0 to 0.8)"},
+    {"column": "Profit", "type": "Float (Continuous)", "description": "Net earnings/loss generated in USD (-$6,599.98 to +$8,399.98)"}
+  ]
+}
