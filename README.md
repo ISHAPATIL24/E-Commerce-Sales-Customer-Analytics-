@@ -10,7 +10,7 @@ An enterprise-grade, interactive Streamlit analytics dashboard for retail sales 
 - **Challenge:** Data Detective Challenge
 - **Group:** Group 4
 - **Assigned Domain:** E-Commerce Sales & Customer Analytics
-- **Original Base Repository Attribution:** Cloned and adapted from [MidhunaG23/ecommerce-dashboard](https://github.com/MidhunaG23/ecommerce-dashboard). Original architecture, components, and MIT licensing principles have been fully preserved and extended.
+
 
 ---
 
